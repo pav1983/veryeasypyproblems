@@ -1,0 +1,5 @@
+def is_identical(s):
+	if all(x == s[0] for x in s):
+		return True
+	else:
+		return False
