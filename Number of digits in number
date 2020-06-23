@@ -1,0 +1,18 @@
+def find_digit_amount(num):
+	num = str(num) 
+	return len(num)
+  
+  
+def find_digit_amount(num):
+	return len(str(num))
+  
+  
+  
+def find_digit_amount(num):
+	return len(str(abs(num)))
+  
+  
+  
+def find_digit_amount(num):
+	num = str(num) 
+	return len(num)
