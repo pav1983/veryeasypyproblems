@@ -1,0 +1,2 @@
+def long_burp(num):
+	return('B' + 'u' + 'r' * num + 'p')
