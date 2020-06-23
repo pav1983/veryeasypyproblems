@@ -1,0 +1,2 @@
+def detect_word(txt):
+	return ''.join(c for c in txt if c.islower())
