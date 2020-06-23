@@ -1,0 +1,9 @@
+def convert(h, m):
+  return (h*3600) + m*60
+  
+def convert(hours, minutes):
+	minutes += hours * 60
+	return minutes * 60
+
+def convert(hours, minutes):
+	return hours*3600 + minutes*60
