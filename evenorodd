@@ -1,0 +1,21 @@
+def isEvenOrOdd(num):
+  if (num % 2 == 0):
+    return 'even'
+  else: 
+    return 'odd'
+    
+  #OR
+  
+  isEvenOrOdd = lambda n : "odd" if n % 2 else "even"
+  
+  #OR
+  
+def isEvenOrOdd(num):
+  return 'even' if num % 2 == 0 else 'odd'
+  
+#OR
+
+def isEvenOrOdd(num):
+  if num % 2 == 0:
+    return "even"
+  return "odd"
