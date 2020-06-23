@@ -1,0 +1,5 @@
+def unlucky_13(nums):
+	for num in nums[:]:
+		if num % 13 == 0:
+			nums.remove(num)
+	return nums
