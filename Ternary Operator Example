@@ -1,0 +1,5 @@
+def yeah_nope(b):
+	if b == True:
+		return 'yeah'
+	else:
+		return 'nope'
