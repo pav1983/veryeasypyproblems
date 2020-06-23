@@ -1,0 +1,5 @@
+def say_hello_bye(name, num):
+	if name and num == 1:
+		return "Hello " + name.capitalize()
+	elif name and num == 0:
+		return 'Bye ' + name.capitalize()
