@@ -1,0 +1,5 @@
+def number_syllables(word):
+	return len(word.split('-'))
+  
+def number_syllables(word):
+	return word.count("-") + 1
