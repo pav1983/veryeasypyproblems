@@ -1,0 +1,5 @@
+def googlify(n):
+	if n >= 2:
+		return 'G' + 'o' * n + 'g' + 'l' + 'e'
+	else:
+		return 'invalid'
