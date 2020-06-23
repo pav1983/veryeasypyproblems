@@ -1,0 +1,6 @@
+def addition(num):
+	return num + 1
+  
+def addition(num):
+  num += 1
+  return num
