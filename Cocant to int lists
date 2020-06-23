@@ -1,0 +1,3 @@
+def concat(lst1, lst2):
+	lst3 = lst1 + lst2
+	return lst3
