@@ -1,0 +1,5 @@
+def is_in_range(n, r):
+	if n >= min(r.values()) and n <= max(r.values()):
+		return True
+	else:
+		return False
