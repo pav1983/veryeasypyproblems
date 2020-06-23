@@ -1,0 +1,4 @@
+def get_word(left, right):
+	s = ""
+	return s.join(left.capitalize() + str(right))
+	return join
