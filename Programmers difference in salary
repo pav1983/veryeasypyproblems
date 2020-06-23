@@ -1,0 +1,9 @@
+def programmers(one, two, three):
+	lst=[one,two,three]
+	return(max(lst)-min(lst))
+  
+def programmers(*args):
+	return max(args) - min(args)
+  
+def programmers(one, two, three):
+	return max(one, two, three)-min(one, two, three)
