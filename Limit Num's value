@@ -1,0 +1,7 @@
+def limit_number(num, range_low, range_high):
+	if num <= range_high and num >= range_low:
+		return num
+	elif num < range_low:
+		return range_low
+	else:
+		return range_high
