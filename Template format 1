@@ -1,0 +1,8 @@
+template = "Their names were: {}, {} and {}."
+  a = "John"
+  b = "Joe"
+  c = "Jack"
+  template.format(a, b, c)
+  
+template = "Their names were: {0}, {1} and {2}."
+
