@@ -1,0 +1,3 @@
+def yen_to_usd(yen):
+	exc = yen / 107.5
+	return round(exc, 2)
