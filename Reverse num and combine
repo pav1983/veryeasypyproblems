@@ -1,0 +1,4 @@
+def reverse_and_not(i):
+	num1 = str(i)[::-1]
+	num2 = str(i)
+	return int((num1) + (num2))
