@@ -1,0 +1,4 @@
+import numpy
+def calc_determinant(matrix):
+	det = numpy.linalg.det(matrix)
+	return round(det, 1)
