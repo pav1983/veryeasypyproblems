@@ -1,0 +1,6 @@
+def nothing_is_nothing(*args):
+	args == [False, None, 0, [], {}, ""]
+	if all(args):
+		return True
+	else:
+		return False
