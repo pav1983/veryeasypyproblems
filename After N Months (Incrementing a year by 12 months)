@@ -1,0 +1,8 @@
+def after_n_months(year, month):
+  try:
+    return year + (month // 12) 
+  except:
+    if year is None:
+      return "year missing"
+    elif month is None:
+      return "month missing"
