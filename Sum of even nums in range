@@ -1,0 +1,3 @@
+def sum_even_nums_in_range(start, stop):
+	lst = range(start, stop+1)
+	return sum(item for item in lst if item % 2 == 0)
