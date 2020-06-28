@@ -1,0 +1,4 @@
+def get_triangle_type(lst):
+	if len(lst) == 3:
+		return ['equilateral', 'isosceles', 'scalene'] [len(set(lst)) - 1]
+	return 'not a triangle'
