@@ -1,0 +1,2 @@
+def capital_letters(txt):
+	return sum(c.isupper() for c in txt)
