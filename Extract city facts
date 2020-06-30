@@ -1,0 +1,3 @@
+def city_facts(city):
+	info = list(city.values())
+	return '{} has a population of {} and is situated in {}'.format(info[0], info[2], info[1])
