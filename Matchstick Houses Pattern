@@ -1,0 +1,7 @@
+def match_houses(step):
+	if step == 1:
+		return 6
+	elif step > 1:
+		return 1 + (step * 5)
+	else:
+		return 0
