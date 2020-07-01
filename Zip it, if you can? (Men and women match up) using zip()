@@ -1,0 +1,6 @@
+def zip_it(women, men):
+	match = zip(women, men)
+	if len(men) == len(women):
+		return list(match)
+	elif len(women) != len(men):
+		return "sizes don't match"
