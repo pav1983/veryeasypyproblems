@@ -1,0 +1,6 @@
+# Must have five digits and all be numbers
+def is_valid(zip_code):
+	if zip_code.isnumeric() and len(zip_code) == 5:
+		return True
+	else:
+		return False
