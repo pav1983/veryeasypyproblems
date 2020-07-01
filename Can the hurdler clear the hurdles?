@@ -1,0 +1,5 @@
+def hurdle_jump(hurdles, jump_height):
+	if len(hurdles) == 0 or max(hurdles) <= jump_height:
+		return True
+	else:
+		return False
