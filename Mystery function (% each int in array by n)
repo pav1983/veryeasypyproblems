@@ -1,0 +1,2 @@
+def mystery_func(lst, n):
+	return [s % n for s in lst]
