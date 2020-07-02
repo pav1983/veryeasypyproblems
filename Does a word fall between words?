@@ -1,0 +1,5 @@
+def is_between(first, last, word):
+	if word > first and word < last:
+		return True
+	else:
+		return False
