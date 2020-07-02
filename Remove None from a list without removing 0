@@ -1,0 +1,2 @@
+def remove_none(lst):
+	return [x for x in lst if x is not None]
