@@ -1,0 +1,10 @@
+def change_enough(change, amount_due):
+	quarters = change[0] * 0.25
+	dimes = change[1] * 0.10
+	nickels = change[2] * .05
+	pennies = change[3] * .01
+	total = quarters + dimes + nickels + pennies
+	if total >= amount_due:
+		return True
+	else:
+		return False
