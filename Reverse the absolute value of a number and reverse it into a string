@@ -1,0 +1,3 @@
+def rev(n):
+	abso = abs(n)
+	return str(abso)[::-1]
