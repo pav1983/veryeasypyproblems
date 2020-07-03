@@ -1,0 +1,2 @@
+def MultiplyByLength(arr):
+	return [i * len(arr) for i in arr]
