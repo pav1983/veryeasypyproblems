@@ -1,0 +1,2 @@
+def mirror(lst):
+	return lst[:-1] + lst[::-1]
