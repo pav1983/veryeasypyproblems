@@ -1,0 +1,5 @@
+def exists_higher(lst, n):
+	if len(lst) == 0 or max(lst) < n:
+		return False
+	else:
+		return True
