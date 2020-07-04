@@ -1,0 +1,2 @@
+def owofied(sentence):
+	return sentence.replace("i", "wi").replace("e", "we") + str(' owo')
