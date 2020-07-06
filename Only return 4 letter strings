@@ -1,0 +1,2 @@
+def is_four_letters(lst):
+	return [i for i in lst if len(str(i)) == 4] 
