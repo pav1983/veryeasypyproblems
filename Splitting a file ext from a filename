@@ -1,0 +1,2 @@
+def get_extension(lst):
+	return [i.split(".")[1] for i in lst]
