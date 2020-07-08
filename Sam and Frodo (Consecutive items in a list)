@@ -1,0 +1,5 @@
+def middle_earth(lst):
+	if lst.index('Frodo') == lst.index("Sam") - 1 or lst.index("Sam") == lst.index("Frodo") - 1:
+		return True
+	else:
+		return False
