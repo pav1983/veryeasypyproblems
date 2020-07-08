@@ -1,0 +1,5 @@
+def get_decimal_places(n):
+	s = str(n)
+	if not '.' in s:
+		return 0
+	return len(s) - s.index('.') - 1
