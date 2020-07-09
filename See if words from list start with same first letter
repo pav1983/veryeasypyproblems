@@ -1,0 +1,2 @@
+def dictionary(initial, words):
+	return [idx for idx in words if idx.lower().startswith(initial.lower())] 
