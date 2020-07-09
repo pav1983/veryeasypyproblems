@@ -1,0 +1,5 @@
+def largest_swap(num):
+	if str(num)[::-1] > str(num):
+		return False
+	else:
+		return True
