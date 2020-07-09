@@ -1,0 +1,2 @@
+def filter_unique(lst):
+	return [i for i in lst if len(set(list(i))) == len(i)]
