@@ -1,0 +1,2 @@
+def sum_found_indexes(lst, n):
+	return sum([x for x in range(len(lst)) if lst[x] == n])
