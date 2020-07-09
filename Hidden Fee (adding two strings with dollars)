@@ -1,0 +1,2 @@
+def has_hidden_fee(prices, t):
+	return sum([int(i[1:]) for i in prices]) < int(t[1:])
