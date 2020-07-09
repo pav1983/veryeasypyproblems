@@ -1,0 +1,7 @@
+def spelling(txt):
+	return [txt[:i + 1] for i in range(len(txt))]
+  
+  OR
+  
+def spelling(txt):
+	return [txt[:i[0] + 1] for i in enumerate(txt)]
