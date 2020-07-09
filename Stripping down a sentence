@@ -1,0 +1,4 @@
+def strip_sentence(txt, chars):
+	for i in chars:
+		txt = txt.replace(i, '')
+	return txt
