@@ -1,0 +1,2 @@
+def is_omnipresent(lst, val):
+	return all([val in i for i in lst])
