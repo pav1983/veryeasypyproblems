@@ -1,0 +1,4 @@
+def filter_state_names(lst, cat):
+	if cat == 'full':
+		return [i for i in lst if len(i)>2]
+	return [i for i in lst if len(i) == 2]
