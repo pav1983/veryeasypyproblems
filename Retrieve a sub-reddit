@@ -1,0 +1,2 @@
+def sub_reddit(link):
+	return link.split("/")[4]
