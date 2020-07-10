@@ -1,0 +1,5 @@
+def is_prefix(word, prefix):
+	return prefix == word[:len(prefix) - 1] + '-'
+
+def is_suffix(word, suffix):
+	return suffix == '-' + word[-len(suffix) + 1:]
