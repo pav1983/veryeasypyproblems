@@ -1,0 +1,2 @@
+def identical_filter(lst):
+	return [i for i in lst if len(set(i)) == 1]
