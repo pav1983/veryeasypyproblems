@@ -1,0 +1,3 @@
+def mean(lst):
+	avg = sum(lst) / len(lst)
+	return round(avg, 2)
