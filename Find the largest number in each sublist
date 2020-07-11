@@ -1,0 +1,2 @@
+def findLargestNums(lst):
+	return [max(p) for p in lst] 
