@@ -1,0 +1,2 @@
+def get_abs_sum(lst):
+	return sum([abs(i) for i in lst])
