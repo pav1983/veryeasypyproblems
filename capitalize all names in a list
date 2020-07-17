@@ -1,0 +1,2 @@
+def cap_me(lst):
+	return [i.title() for i in lst]
