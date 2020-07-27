@@ -1,0 +1,5 @@
+def first_vowel(txt):
+	vowelList = 'aeiouAEIOU'
+	for index, c in enumerate(txt):
+		if c in vowelList:
+			return index
