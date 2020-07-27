@@ -1,0 +1,4 @@
+#Example: 1 + 2 + 3 + 4 = 10
+
+def add_up(num):
+	return sum(range(num, 0, -1))
