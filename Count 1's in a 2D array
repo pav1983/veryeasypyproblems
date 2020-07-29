@@ -1,0 +1,2 @@
+def count_ones(matrix):
+	return sum(x.count(1) for x in matrix)
