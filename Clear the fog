@@ -1,0 +1,8 @@
+def clear_fog(txt):
+    ans = ''
+    for i in txt:
+        if i not in 'fogFOG':
+            ans += i
+    if ans == txt:
+        return "It's a clear day!"
+    return ans
