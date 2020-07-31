@@ -1,0 +1,4 @@
+def test_fairness(agatha, bertha):
+	sumA = sum(x*y for x,y in agatha)
+	sumB = sum(x*y for x,y in bertha)
+	return sumA == sumB
